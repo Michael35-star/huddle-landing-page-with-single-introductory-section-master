@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+
+
+    body{
+      background-color:  hsl(257, 40%, 49%);
+      background-image: url(./images/bg-desktop.svg);
+    }
+
+
+
+    .cover{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+    .he{
+      margin: 10px;
+    }
+
+
+
+    .h{
+      margin: 10px;
+    }
+
+
+
+    .te{
+      display: flex;
+    }
+
+
+
+    button{
+      margin: 30px;
+      width: 40%;
+      height: 40px;
+      border: none;
+      /* border: 1px solid black; */
+      color: hsl(257, 40%, 49%);
+      border-radius: 15px;
+      box-shadow: 0px 0.2px 6px 0.2px rgb(59, 59, 59);
+    }
+
+
+
+    h1{
+       margin: 7%;
+       color: white;
+    } 
+ 
+
+
+    p{
+      margin-left: 35px;
+      color: white;
+    }
+
+
+
+    @media screen and (min-width:310px) and (max-width:549px){
+      
+      .cover{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+
+
+      .he{ 
+        width: 50%;
+        margin-bottom: 10px;
+        height: 40px;
+        /* justify-content: center; */
+        /* background-color: red; */
+
+      }
+
+
+
+      .h{
+        height: 50%;
+        width: 100%;
+        margin: 20px;
+
+      }
+
+
+
+      .te{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+      }
+
+
+
+      .tell{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+
+
+      h1{
+        /* text-align: center; */
+        width: 110%;
+        justify-content: center;
+      }
+
+
+
+      p{
+        width: 100%;
+        /* text-align: center; */
+      }
+      
+
+
+      button{
+        width: 75%;
+        margin-left: 80px;
+        
+      }
+    }
+
+
+
+    @media screen and (min-width:550px) and (max-width:1200px){
+      
+      .cover{
+        width: 90%;
+        align-items: center;
+        /* display: flex;
+        flex-direction: column; */
+      }
+
+
+
+      .he{ 
+        width: 100%;
+        margin-bottom: 10px;
+        height: 40px;
+        /* justify-content: center; */
+        /* background-color: red; */
+
+      }
+
+
+
+      .h{
+        height: 50%;
+        width: 100%;
+        margin: 20px;
+
+      }
+
+
+ 
+      .te{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+      }
+
+
+
+      .tell{
+        /* display: flex;
+        flex-direction: column; */
+        text-align: center;
+      }
+
+
+
+      h1{
+        /* text-align: center; */
+        width: 90%;
+        justify-content: center;
+      }
+
+
+
+      p{
+        width: 100%;
+        text-align: center;
+      }
+      
+
+
+      button{
+        width: 75%;
+        margin-left: 80px;
+        
+      }
+
+    }
+  </style>
+</head>
+<body>
+      <div class="cover">
+
+
+
+       <div class="hee"> <img src="./images/logo.svg" class="he"></div>
+
+       
+
+        <div class="te">
+
+          <div class="h"> <img src="./images/illustration-mockups.svg" class="h" alt=""></div>
+
+
+              <div class="tell"><h1>Build The Community Your Fans Will Love</h1>
+
+                <p>Huddle re-imagines the way we build communities. You have a voice, but so <br> does your audience. 
+                   Create connections <br> with your users as you engage in <br> genuine discussion. </p>
+
+          
+
+                <button>Register</button>
+      
+              </div>
+        </div>
+
+
+      </div>
+
+
+
+
+  
+
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>  -->
+</body>
+</html>
